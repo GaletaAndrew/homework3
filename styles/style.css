@@ -47,16 +47,6 @@ p, h1, h2, h3, h4, h5, h6 {
     color: var(--button-color);
 }
 
-.footer-head{
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    color: var(--second-color);
-    text-decoration: none;  
-}
-
 .list {
     list-style: none;
 }
@@ -152,6 +142,7 @@ font-weight: 500;
 }
 
 .section1, 
+.section2,
 .footer {
     background-color: var(--main-background-color);
 }
@@ -294,6 +285,19 @@ font-weight: 500;
     color: var(--navi-color);
 }
 
+.footer-head {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--second-color);
+    text-decoration: none;
+    padding-top: 60px;
+    padding-left: 0px;
+    margin-bottom: 20px;    
+}
+
 .footer-adress {
     font-weight: 400;
     font-size: 14px;
@@ -314,4 +318,9 @@ font-weight: 500;
 
 .footerlist{
     display: flex;
+    flex-direction: column;
+}
+
+.footer-nav{
+    margin-top: 9px;
 }
