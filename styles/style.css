@@ -13,6 +13,17 @@ body {
     font-family: 'roboto', sans-serif;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+ ul {
+    margin: 0;
+    padding: 0;
+ }
+
+ .header{
+    padding-top: 24px;
+ }
 .head {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -21,6 +32,15 @@ body {
     line-height: 31px;
     color: var(--main-text-color);
     text-decoration: none;
+    margin-right: 94px;
+}
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red
 }
 
 .head-color{
@@ -66,6 +86,19 @@ font-weight: 500;
     margin: -1px;
 }
 
+.header-list{
+    display: flex;
+    column-gap: 50px;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.header-cont{
+    margin-left: auto;
+}
+
 .header-link {
     font-weight: 500;
     font-size: 14px;
@@ -95,7 +128,9 @@ font-weight: 500;
     line-height: 1.36;
     color: var(--second-color);
     letter-spacing: 0.06em;
-    text-transform: uppercase
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 200px;
 }
 
 .header-button {
@@ -105,6 +140,11 @@ font-weight: 500;
     letter-spacing: 0.06em;
     color: var(--second-color);
     background-color: var(--button-color);
+    margin-top: 30px; 
+}
+
+.section1{
+    text-align: center;
 }
 
 .header-button:focus{
@@ -123,6 +163,7 @@ font-weight: 500;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
     text-transform: uppercase;
+    padding-top: 90px;
 }
 
 .characteristic-par {
@@ -131,7 +172,23 @@ font-weight: 500;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--navi-color);
+    width: 270px;
+    height: 101px;
+    
+    }
+
+.speclist{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
 }
+
+.wedolist{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
+}
+
 
 .whatwedo {
     font-weight: 700;
@@ -139,6 +196,8 @@ font-weight: 500;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .team-sec{
@@ -151,10 +210,19 @@ font-weight: 500;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.teamlist{
+    display: flex;
+    justify-content: space-between;
 }
 
 .team-pers{
     background-color: var(--second-color);
+    padding-bottom: 94px;
 }
 
 .team-name {
@@ -163,6 +231,9 @@ font-weight: 500;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .team-post {
@@ -171,6 +242,7 @@ font-weight: 500;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--navi-color);
+    text-align: center;
 }
 
 .footer-adress {
@@ -238,4 +310,8 @@ font-weight: 500;
     letter-spacing: 0.03em;
     font-style: normal;
     color: var(--navi-second-color);
+}
+
+.footerlist{
+    display: flex;
 }
