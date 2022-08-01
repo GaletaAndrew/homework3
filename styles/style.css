@@ -9,6 +9,12 @@
 
 }
 
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     font-family: 'roboto', sans-serif;
 }
@@ -23,6 +29,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
  .header{
     padding-top: 24px;
+    padding-bottom: 25px;
  }
 .head {
     font-family: 'Raleway', sans-serif;
@@ -119,7 +126,6 @@ font-weight: 500;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 200px;
 }
 
 .header-button {
@@ -134,6 +140,8 @@ font-weight: 500;
 
 .section1{
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 280px;
 }
 
 .header-button:focus{
@@ -146,6 +154,11 @@ font-weight: 500;
     background-color: var(--main-background-color);
 }
 
+.section-character{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .characteristic {
     font-weight: 700;
     font-size: 14px;
@@ -153,7 +166,7 @@ font-weight: 500;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
     text-transform: uppercase;
-    padding-top: 90px;
+    margin-bottom: 10px;
 }
 
 .characteristic-par {
@@ -176,9 +189,11 @@ font-weight: 500;
 .wedolist{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 94px;
 }
 
+.section-whatwedo{
+    padding-bottom: 94px;
+}
 
 .whatwedo {
     font-weight: 700;
@@ -190,8 +205,15 @@ font-weight: 500;
     text-align: center;
 }
 
+.wedo-img{
+    width: 370px;
+    height: 294px;
+}
+
 .team-sec{
     background-color: var(--second-background-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team {
@@ -201,8 +223,7 @@ font-weight: 500;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
     text-align: center;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .teamlist{
@@ -212,7 +233,13 @@ font-weight: 500;
 
 .team-pers{
     background-color: var(--second-color);
-    padding-bottom: 94px;
+}
+
+.team-np{
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    padding-left: 15px;
 }
 
 .team-name {
@@ -221,7 +248,6 @@ font-weight: 500;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-    margin-top: 30px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -235,30 +261,31 @@ font-weight: 500;
     text-align: center;
 }
 
+.buttons-done{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .buttonlist{
     display: flex;
-    padding-top: 125px;
     justify-content: center;
     column-gap: 30px;
-    padding-bottom: 50px;
 }
 
 .donelist{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-bottom: 94px;
+}
+.donelist-name{
+    padding: 20px 24px;
 }
 
-.footer-adress {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    font-style: normal;
-    color: var(--second-color);
+.donelist-name{
+    border-color: #eeeeee;
+    border-width: 0px 1px 1px 1px;
+    border-style: none solid solid solid;
 }
-
 
 .head-btn:hover, 
 .head-btn:focus{
@@ -274,7 +301,8 @@ font-weight: 500;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-
+    border: none;
+    margin-bottom: 50px;
 }
 
 .navi-btn:hover, 
@@ -308,9 +336,7 @@ font-weight: 500;
     line-height: 31px;
     color: var(--second-color);
     text-decoration: none;
-    padding-top: 60px;
     padding-left: 0px;
-    margin-bottom: 20px;    
 }
 
 .footer-adress {
@@ -318,9 +344,9 @@ font-weight: 500;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    font-style: normal;
     color: var(--second-color);
 }
-
 
 .footer-nav {
     font-weight: 400;
@@ -334,8 +360,18 @@ font-weight: 500;
 .footerlist{
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .footer-nav{
+    margin-top: 9px;
+}
+
+.section2{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-mail{
+    margin-bottom: 9px;
     margin-top: 9px;
 }
